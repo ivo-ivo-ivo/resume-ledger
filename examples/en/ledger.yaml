@@ -1,0 +1,8 @@
+lang: en
+name: "Maya Chen"
+chrome: auto
+out_dir: build
+privacy:
+  never_commit:
+    - ledger/transcripts/
+    - "*.private.md"

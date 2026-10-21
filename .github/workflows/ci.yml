@@ -1,0 +1,21 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install markdown pypdf
+      - run: python tests/run.py
+      - name: manifests are valid JSON
+        run: python -c "import json,glob; [json.load(open(p)) for p in glob.glob('.*-plugin/*.json')+['gemini-extension.json']]; print('json ok')"
+      - name: no user data in the repo
+        run: |
+          ! grep -rnE '/Users/|/home/[a-z]+/' --include='*.md' --include='*.py' --include='*.txt' . || (echo "local paths found" && exit 1)

@@ -1,0 +1,57 @@
+$ python check.py content/general.md
+== build.py
+html: build/general.html
+== check_numbers.py
+scope: resume   numbers in content: 11   ledger figures usable: 25
+numbers not in ledger: none
+numbers only backed by planned rows: none
+banned wording hits: none
+== scan.py
+file: general.html   lang: en   red-line words loaded: 5
+red-line hits: none
+formatting: none
+== all checks passed
+
+$ python check.py content/aipm-targeted.md
+== build.py
+html: build/aipm-targeted.html
+== check_numbers.py
+scope: resume   numbers in content: 11   ledger figures usable: 25
+numbers not in ledger: none
+numbers only backed by planned rows: none
+banned wording hits: none
+== scan.py
+file: aipm-targeted.html   lang: en   red-line words loaded: 5
+red-line hits: none
+formatting: none
+== all checks passed
+
+$ python check.py content/aipm-targeted-blind.md
+== build.py
+html: build/aipm-targeted-blind.html
+== check_numbers.py
+scope: resume   numbers in content: 11   ledger figures usable: 25
+numbers not in ledger: none
+numbers only backed by planned rows: none
+banned wording hits: none
+== scan.py
+file: aipm-targeted-blind.html   lang: en   red-line words loaded: 5
+red-line hits: none
+formatting: none
+== all checks passed
+
+$ python check.py content/portfolio-kb-qa.md
+== build.py
+html: build/portfolio-kb-qa.html
+== check_numbers.py
+scope: portfolio   numbers in content: 6   ledger figures usable: 12
+numbers not in ledger: none
+numbers only backed by planned rows: none
+banned wording hits: none
+== scan.py
+file: portfolio-kb-qa.html   lang: en   red-line words loaded: 6
+red-line hits: none
+identifier hits: none
+formatting: none
+== all checks passed
+

@@ -1,0 +1,6 @@
+{
+  "name": "resume-ledger",
+  "version": "0.1.0",
+  "description": "Resumes and portfolios built from a fact ledger: every number reconciles to a confirmed source. zh/en.",
+  "contextFileName": "GEMINI.md"
+}

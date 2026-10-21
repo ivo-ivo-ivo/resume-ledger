@@ -1,0 +1,11 @@
+{
+  "name": "resume-ledger",
+  "displayName": "Resume Ledger",
+  "version": "0.1.0",
+  "description": "Resumes, JD-targeted variants and portfolio case studies built from a fact ledger, so every number traces to a confirmed source. zh/en.",
+  "author": { "name": "ivo-ivo-ivo", "url": "https://github.com/ivo-ivo-ivo" },
+  "homepage": "https://github.com/ivo-ivo-ivo/resume-ledger",
+  "repository": "https://github.com/ivo-ivo-ivo/resume-ledger",
+  "license": "MIT",
+  "keywords": ["resume", "cv", "portfolio", "job-description", "fact-check", "zh", "en"]
+}

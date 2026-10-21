@@ -1,0 +1,16 @@
+{
+  "name": "resume-ledger",
+  "description": "Resumes and portfolios built from a fact ledger: every number reconciles to a confirmed source. zh/en.",
+  "owner": {
+    "name": "ivo-ivo-ivo",
+    "url": "https://github.com/ivo-ivo-ivo"
+  },
+  "plugins": [
+    {
+      "name": "resume-ledger",
+      "source": "./",
+      "description": "Resumes and portfolios built from a fact ledger: every number reconciles to a confirmed source. zh/en.",
+      "version": "0.1.0"
+    }
+  ]
+}

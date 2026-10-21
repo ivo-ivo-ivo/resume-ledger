@@ -1,0 +1,22 @@
+[
+  {"query": "我想针对一个 AI 产品经理的 JD 写简历，JD 我稍后贴。", "should_trigger": true},
+  {"query": "这是我现在的简历（在 ~/Desktop/简历-2025.docx），帮我改成能投国内大厂 AI 产品岗的版本，经历不要瞎编。", "should_trigger": true},
+  {"query": "ok so a recruiter sent me this JD for a Senior PM, AI platform (pasting below). my cv is kinda old, can you tailor it? i dont want to overstate the numbers tho", "should_trigger": true},
+  {"query": "帮我把过去三年做数据平台的经历整理成一份作品集，给面试用，公司名字不能出现。", "should_trigger": true},
+  {"query": "my resume says 'led a team of 12' but 8 of them were from another org — how should I phrase this honestly and still make it count?", "should_trigger": true},
+  {"query": "面试官肯定会问我简历上那个“转化率提升 30%”是怎么算的，帮我准备一下怎么答。", "should_trigger": true},
+  {"query": "I have three versions of my CV floating around (one for startups, one for big tech, a blind one for agencies) and the numbers don't match anymore. Help me get them consistent.", "should_trigger": true},
+  {"query": "把这段经历写得更有吸引力一点：负责客服机器人项目，上线后客服工作量减少了，具体多少我得查一下。", "should_trigger": true},
+  {"query": "write me a one-page case study on the RAG chatbot I built at work, for my portfolio site. we had ~2k daily queries and hit rate went up a lot after reranking.", "should_trigger": true},
+  {"query": "猎头让我发一份脱敏版简历，不带公司名和联系方式，帮我从现在这版派生一个。", "should_trigger": true},
+  {"query": "我们团队要招一个 AI 产品经理，帮我写一份 JD，要求 3 年以上经验。", "should_trigger": false},
+  {"query": "screen these 40 resumes in resumes/ against our job description and rank the top 10 candidates for me", "should_trigger": false},
+  {"query": "帮我写一封离职信，语气礼貌一点，下周一交。", "should_trigger": false},
+  {"query": "draft a LinkedIn post announcing that I just started a new job as Head of AI at a fintech", "should_trigger": false},
+  {"query": "把这份英文简历翻译成中文，格式不用动。", "should_trigger": false},
+  {"query": "what's a reasonable salary range for an AI product manager with 5 years experience in Singapore?", "should_trigger": false},
+  {"query": "帮我做一个简历解析工具，上传 PDF 自动抽出姓名、学历、工作经历到数据库。", "should_trigger": false},
+  {"query": "write a reference letter for my former report Maya, she was a PM on my team for two years", "should_trigger": false},
+  {"query": "我下周要给团队做一次关于 RAG 评测方法的分享，帮我列个大纲。", "should_trigger": false},
+  {"query": "convert my resume.docx to PDF and make the margins smaller so it fits on one page", "should_trigger": false}
+]
